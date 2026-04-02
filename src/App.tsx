@@ -1,4 +1,2 @@
-import ElectricalEstimatorApp from './ElectricalEstimatorApp'
-export default function App() {
-  return <ElectricalEstimatorApp />
-}
+import ElectricalEstimatorApp from "./ElectricalEstimatorApp";
+export default ElectricalEstimatorApp;
