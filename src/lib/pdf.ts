@@ -5,7 +5,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = workerSrc;
 
 export async function renderSinglePagePdfToCanvas(file: File, scale = 2.2) {
   const bytes = new Uint8Array(await file.arrayBuffer());
-  const loadingTask = pdfjsLib.getDocument({ data: bytes, disableWorker: true, useWorkerFetch: false, isEvalSupported: false });
+  const loadingTask = pdfjsLib.getDocument({data: bytes,});
   const pdf = await loadingTask.promise;
   const page = await pdf.getPage(1);
   const viewport = page.getViewport({ scale });
