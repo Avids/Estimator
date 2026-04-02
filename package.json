@@ -1,7 +1,7 @@
 {
-  "name": "electrical-estimator-app",
+  "name": "electrical-estimator-pro",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,11 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^4.4.168",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "lucide-react": "^0.441.0",
-    "framer-motion": "^11.2.10",
-    "pdfjs-dist": "^4.4.168"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
